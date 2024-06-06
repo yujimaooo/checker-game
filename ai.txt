@@ -1,0 +1,9 @@
+My AI has a straightforward approach but not just pick a random/arbitrary legal move: 
+it always try to jump if it can, and make a basic move if that is not possible. 
+I tried to make it work by picking the first available legal move, but i had a hard time
+fixing all the bugs. The pick-next-move algorithm would potentially be improved by
+implementing more advanced strategies, let it learn some strategies from human players in past games
+It potentially can incorporate an evaluation function that assigns a score to each possible move, 
+based on factors such as the number of pieces captured or the safety of the piece.
+
+
